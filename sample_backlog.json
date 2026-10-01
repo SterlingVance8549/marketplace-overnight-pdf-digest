@@ -1,0 +1,24 @@
+{
+  "digest_date": "2026-09-13",
+  "records": [
+    {
+      "order_id": "ord-1042",
+      "seller": "Northstar Ceramics",
+      "assets": [
+        {"name": "packing photos", "status": "approved"},
+        {"name": "care card", "status": "uploaded"}
+      ],
+      "buyer_updates": [
+        {"buyer": "Mina", "note": "delivery window confirmed"}
+      ],
+      "handoff": {"owner": "Rae", "next_step": "book courier"}
+    },
+    {
+      "order_id": "ord-1043",
+      "seller": "Field Notes Press",
+      "assets": [{"name": "cover proof", "status": "awaiting approval"}],
+      "buyer_updates": [{"buyer": "Jon", "note": "asked for a Monday dispatch"}],
+      "handoff": {"owner": null, "next_step": "confirm cover proof"}
+    }
+  ]
+}

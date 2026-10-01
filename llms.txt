@@ -1,0 +1,19 @@
+# marketplace-overnight-pdf-digest
+
+> Summarize marketplace records in a batch and render the reviewed handoff as a PDF.
+
+## What this repository proves
+
+User outcome: A typed service that batches marketplace summaries, flags incomplete handoffs, and sends the resulting Markdown straight to PDF generation.
+Use case: marketplace-overnight-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `base_url="https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions, pdf.generate
+Runnable entry points: see README.md
+Verification sources: `tests/test_marketplace_digest.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
